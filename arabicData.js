@@ -163,7 +163,7 @@ const arabicData = {
       disctiption: "",
     },
     {
-      name: "G مشروب",
+      name: " مشروب G",
       price: "2.00",
       disctiption: "",
     },
