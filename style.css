@@ -96,6 +96,10 @@ label {
 /* main {
   column-width: 40rem;
 } */
+select {
+  text-align: center !important;
+  color: #1f1f1f;
+}
 select option {
   text-align: center !important;
   color: #1f1f1f;
