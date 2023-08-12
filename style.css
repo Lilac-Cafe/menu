@@ -65,7 +65,7 @@ label {
   border-radius: 5rem;
   padding: 0.5rem;
   appearance: none;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 .landing h1::before {
   content: "";
