@@ -1,0 +1,148 @@
+/* Font */
+@import url("https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap");
+/* General Rules */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: var(--primary-dark-color);
+}
+a {
+  text-decoration: none;
+  color: var(--primary-dark-color);
+}
+
+:root {
+  --primary-dark-color: #1f1f1f;
+  --secondary-dark-color: #323230;
+  --descriptionColor: #adadad;
+  --primary-light-color: #f4f4f4;
+  font-size: 62.5%;
+  font-family: "Patrick Hand", cursive;
+}
+/* English Text */
+.english-text {
+  direction: ltr; /* Left-to-right for English */
+  text-align: left;
+}
+
+/* Arabic Text */
+.arabic-text {
+  direction: rtl; /* Right-to-left for Arabic */
+  text-align: right;
+}
+label {
+  font-weight: bolder;
+}
+
+.landing {
+  /* min-height: 100vh; */
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  color: var(--primary-light-color);
+  font-size: 3rem;
+
+  align-items: center;
+  justify-content: center;
+}
+.landing img {
+  max-width: 350px;
+}
+
+.landing h1 {
+  font-size: 3rem;
+  position: relative;
+}
+.landing select {
+  font-family: "Patrick Hand", cursive;
+  outline: 0;
+  border: 0;
+  background-image: url(./image/title--background.jpg);
+  border-radius: 5rem;
+  padding: 0.5rem;
+  appearance: none;
+  font-size: 3rem;
+}
+.landing h1::before {
+  content: "";
+  /* display: inline-block; */
+  position: absolute;
+  left: -50px;
+  top: 50%;
+  width: 4rem;
+  height: 1rem;
+  background-color: var(--primary-light-color);
+  margin-bottom: 1rem;
+  margin-right: 1rem;
+  border-radius: 5rem;
+  white-space: nowrap;
+}
+.landing h1::after {
+  content: "";
+  position: absolute;
+  right: -50px;
+  top: 50%;
+  width: 4rem;
+  height: 1rem;
+  background-color: var(--primary-light-color);
+  margin-bottom: 1rem;
+  margin-left: 1rem;
+  border-radius: 5rem;
+  white-space: nowrap;
+}
+/* main {
+  column-width: 40rem;
+} */
+
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem;
+  border-bottom: 2px solid var(--descriptionColor);
+}
+.category--title {
+  background-image: url(./image/title--background.jpg);
+  font-size: 3rem;
+  text-align: center;
+  background-size: cover;
+  padding: 0.5rem;
+  border-radius: 3rem;
+  margin-bottom: 2rem;
+  color: var(--primary-dark-color);
+  width: 272.2px;
+}
+.category--items {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 2rem;
+  color: var(--primary-light-color);
+}
+.category--item {
+  padding-bottom: 1.5rem;
+  width: 100%;
+}
+.item--header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item--divider {
+  flex-grow: 1;
+  overflow: hidden;
+  width: 20px;
+  text-align: center;
+  margin: 0 1rem 0.5rem;
+}
+
+.item--description {
+  color: var(--descriptionColor);
+}
