@@ -24,13 +24,13 @@ a {
 }
 /* English Text */
 .english-text {
-  direction: ltr; /* Left-to-right for English */
+  direction: ltr;
   text-align: left;
 }
 
 /* Arabic Text */
 .arabic-text {
-  direction: rtl; /* Right-to-left for Arabic */
+  direction: rtl;
   text-align: right;
 }
 label {
@@ -69,7 +69,6 @@ label {
 }
 .landing h1::before {
   content: "";
-  /* display: inline-block; */
   position: absolute;
   left: -50px;
   top: 50%;
@@ -97,7 +96,10 @@ label {
 /* main {
   column-width: 40rem;
 } */
-
+select option {
+  text-align: center !important;
+  color: #1f1f1f;
+}
 .category {
   display: flex;
   flex-direction: column;

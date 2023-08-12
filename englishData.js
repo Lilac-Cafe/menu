@@ -347,7 +347,7 @@ const englishData = {
     {
       name: "Pina Colada",
       price: "3.00",
-      disctiption: "جوزهند، أناناس",
+      disctiption: "Coconut & Pineapple ",
     },
   ],
   // "الحلويات/نقرشة": [
