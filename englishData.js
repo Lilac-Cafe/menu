@@ -337,7 +337,7 @@ const englishData = {
     {
       name: "Green Valley",
       price: "3.50",
-      disctiption: "",
+      disctiption: "Avocado",
     },
     {
       name: "Banana & Strawberry",

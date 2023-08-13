@@ -143,12 +143,12 @@ const arabicData = {
       disctiption: "",
     },
     {
-      name: "كلاسيك موهيتو",
+      name: " موهيتو كلاسيك",
       price: "2.50",
       disctiption: "",
     },
     {
-      name: "سبيشل موهيتو",
+      name: "موهيتو سبيشل",
       price: "3.50",
       disctiption: "",
     },
@@ -337,7 +337,7 @@ const arabicData = {
     {
       name: "الوادي الأخضر",
       price: "3.50",
-      disctiption: "",
+      disctiption: "أفوكادو",
     },
     {
       name: "موز بحليب وفراولة",
