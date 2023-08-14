@@ -4,11 +4,11 @@ let head;
 let itemCotant;
 let lang = document.getElementById("lang");
 let main = document.querySelector("main");
-let categories = document.querySelector(".categories");
-let label = document.querySelector("label");
+let toTopButton = document.getElementById("toTopBtn");
+// let categories = document.querySelector(".categories");
+// let label = document.querySelector("label");
 let title1 = document.querySelector("#title-1");
 let title2 = document.querySelector("#title-2");
-
 let data = arabicData;
 if (localStorage.getItem("lang") === "en") {
   data = englishData;
@@ -16,9 +16,10 @@ if (localStorage.getItem("lang") === "en") {
   main.classList.add("english-text");
   main.classList.remove("arabic-text");
   // label.innerHTML = "Choose Language";
-  title1.innerHTML = "Categories";
+  // title1.innerHTML = "Categories";
   title2.innerHTML = "Menu";
 }
+// العصائر-الباردة/سموذي--items
 for (let category in data) {
   head = "";
   itemCotant = "";
@@ -27,7 +28,7 @@ for (let category in data) {
     "-",
     " "
   )}</h2>
-  <div class="category--items">`;
+  <div id=${category}--items class="category--items hidden">`;
   for (let item of data[category]) {
     itemCotant += `<div class="category--item">
     <div class="item--header">
@@ -47,11 +48,11 @@ for (let category in data) {
   let markup = head + itemCotant + foot;
   let element = document.querySelector("main");
   element.insertAdjacentHTML("beforeend", markup);
-  let categoriesMarkUp = `<h2 class="category--title"><a href="#${category}">${category.replaceAll(
-    "-",
-    " "
-  )}</a></h2>`;
-  categories.insertAdjacentHTML("beforeend", categoriesMarkUp);
+  // let categoriesMarkUp = `<h2 class="category--title"><a href="#${category}">${category.replaceAll(
+  //   "-",
+  //   " "
+  // )}</a></h2>`;
+  // categories.insertAdjacentHTML("beforeend", categoriesMarkUp);
 }
 
 lang.addEventListener("change", function (e) {
@@ -67,4 +68,30 @@ lang.addEventListener("change", function (e) {
     localStorage.setItem("lang", "ar");
     window.location.reload();
   }
+});
+main.addEventListener("click", function (e) {
+  if (e.target.classList.contains("category--title")) {
+    let itemsParent = document.getElementById(
+      `${e.target.id}--items`
+    ).classList;
+    if (itemsParent.contains("hidden")) {
+      itemsParent.remove("hidden");
+    } else {
+      itemsParent.add("hidden");
+    }
+  }
+});
+
+// Show or hide the "To Top" button based on scroll position
+window.addEventListener("scroll", () => {
+  if (window.scrollY > 300) {
+    toTopButton.style.display = "block";
+  } else {
+    toTopButton.style.display = "none";
+  }
+});
+
+// Scroll to the top of the page when the button is clicked
+toTopButton.addEventListener("click", () => {
+  window.scrollTo({ top: 0, behavior: "smooth" });
 });
