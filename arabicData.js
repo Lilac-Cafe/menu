@@ -21,7 +21,7 @@ const arabicData = {
       disctiption: "",
     },
     {
-      name: "أمريكان كوفي",
+      name: "أميريكان كوفي",
       price: "2.50",
       disctiption: "",
     },
@@ -77,22 +77,22 @@ const arabicData = {
     },
     {
       name: "شاي بحليب",
-      price: "1.50",
+      price: "2.00",
       disctiption: "",
     },
     {
       name: "شاي كرك",
-      price: "1.50",
+      price: "2.00",
       disctiption: "",
     },
     {
       name: "شاي أخضر",
-      price: "1.50",
+      price: "2.00",
       disctiption: "",
     },
     {
       name: "زنجبيل",
-      price: "1.50",
+      price: "2.00",
       disctiption: "",
     },
     {
@@ -191,57 +191,57 @@ const arabicData = {
   "العصائر-الباردة/سموذي": [
     {
       name: "برتقال",
-      price: "2.50",
+      price: "3.00",
       disctiption: "",
     },
     {
       name: "ليمون",
-      price: "2.50",
+      price: "3.00",
       disctiption: "",
     },
     {
       name: "جزر موسمي",
-      price: "2.50",
+      price: "3.00",
       disctiption: "",
     },
     {
       name: "ليمون ونعنع",
-      price: "3.00",
+      price: "3.50",
       disctiption: "",
     },
     {
       name: "برتقال وجزر",
-      price: "3.00",
+      price: "3.50",
       disctiption: "",
     },
     {
       name: "فراولة",
-      price: "3.00",
+      price: "3.50",
       disctiption: "",
     },
     {
       name: "مانجا",
-      price: "3.00",
+      price: "3.50",
       disctiption: "",
     },
     {
       name: "كيوي",
-      price: "3.00",
+      price: "3.50",
       disctiption: "",
     },
     {
       name: "كيوي وليمون",
-      price: "3.00",
+      price: "3.50",
       disctiption: "",
     },
     {
       name: "أناناس",
-      price: "3.00",
+      price: "3.50",
       disctiption: "",
     },
     {
       name: "رمان موسمي",
-      price: "3.00",
+      price: "3.50",
       disctiption: "",
     },
   ],

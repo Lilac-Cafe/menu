@@ -77,22 +77,22 @@ const englishData = {
     },
     {
       name: "Milk Tea",
-      price: "1.50",
+      price: "2.00",
       disctiption: "",
     },
     {
       name: "Chai Karak",
-      price: "1.50",
+      price: "2.00",
       disctiption: "",
     },
     {
       name: "Green Tea",
-      price: "1.50",
+      price: "2.00",
       disctiption: "",
     },
     {
       name: "Ginger",
-      price: "1.50",
+      price: "2.00",
       disctiption: "",
     },
     {
@@ -191,57 +191,57 @@ const englishData = {
   "COLD-JUICE/SMOOTHIE": [
     {
       name: "Orange",
-      price: "2.50",
+      price: "3.00",
       disctiption: "",
     },
     {
       name: "Lemon",
-      price: "2.50",
+      price: "3.00",
       disctiption: "",
     },
     {
       name: "Carrot Seasonal",
-      price: "2.50",
+      price: "3.00",
       disctiption: "",
     },
     {
       name: "Lemon & Mint",
-      price: "3.00",
+      price: "3.50",
       disctiption: "",
     },
     {
       name: "Orange & Carrot",
-      price: "3.00",
+      price: "3.50",
       disctiption: "",
     },
     {
       name: "Strawberry",
-      price: "3.00",
+      price: "3.50",
       disctiption: "",
     },
     {
       name: "Mango",
-      price: "3.00",
+      price: "3.50",
       disctiption: "",
     },
     {
       name: "Kiwi",
-      price: "3.00",
+      price: "3.50",
       disctiption: "",
     },
     {
       name: "Kiwi & Lemon",
-      price: "3.00",
+      price: "3.50",
       disctiption: "",
     },
     {
       name: "Pineapple",
-      price: "3.00",
+      price: "3.50",
       disctiption: "",
     },
     {
       name: "Pomegranate Seasonal",
-      price: "3.00",
+      price: "3.50",
       disctiption: "",
     },
   ],
