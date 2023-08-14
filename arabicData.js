@@ -72,7 +72,7 @@ const arabicData = {
     },
     {
       name: "شاي",
-      price: "1.00",
+      price: "2.00",
       disctiption: "",
     },
     {

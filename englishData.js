@@ -72,7 +72,7 @@ const englishData = {
     },
     {
       name: "Tea",
-      price: "1.00",
+      price: "2.00",
       disctiption: "",
     },
     {
