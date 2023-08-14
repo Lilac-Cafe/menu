@@ -70,7 +70,7 @@ label {
 .landing h1::before {
   content: "";
   position: absolute;
-  left: -50px;
+  left: -55px;
   top: 50%;
   width: 4rem;
   height: 1rem;
@@ -83,7 +83,7 @@ label {
 .landing h1::after {
   content: "";
   position: absolute;
-  right: -50px;
+  right: -55px;
   top: 50%;
   width: 4rem;
   height: 1rem;
@@ -99,6 +99,7 @@ label {
 select {
   text-align: center !important;
   color: #1f1f1f;
+  cursor: pointer;
 }
 select option {
   text-align: center !important;
@@ -122,6 +123,13 @@ select option {
   margin-bottom: 2rem;
   color: var(--primary-dark-color);
   width: 272.2px;
+  cursor: pointer;
+  opacity: 0.8;
+  transition: all 0.5s ease-in-out;
+}
+.active {
+  opacity: 1;
+  transform: scale(1.1);
 }
 .category--items {
   display: flex;
@@ -192,9 +200,10 @@ select option {
   align-items: center;
   justify-content: center;
   cursor: pointer;
-  opacity: 0.7;
-  transition: opacity 0.3s ease-in-out;
+  opacity: 0.8;
+  transition: all 0.5s ease-in-out;
 }
 .to-top-btn:hover {
   opacity: 1;
+  transform: scale(1.1);
 }

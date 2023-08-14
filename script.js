@@ -74,6 +74,9 @@ main.addEventListener("click", function (e) {
     let itemsParent = document.getElementById(
       `${e.target.id}--items`
     ).classList;
+
+    e.target.classList.toggle("active");
+
     if (itemsParent.contains("hidden")) {
       itemsParent.remove("hidden");
     } else {
