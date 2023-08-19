@@ -350,23 +350,23 @@ const englishData = {
       disctiption: "Coconut & Pineapple ",
     },
   ],
-  "NAQRASHA / NUTS": [
-    {
-      name: "Special Nuts",
-      price: "2.50",
-      disctiption: "",
-    },
-    {
-      name: "Smoked Nuts",
-      price: "2.50",
-      disctiption: "",
-    },
-    {
-      name: "Healthy Nuts",
-      price: "2.50",
-      disctiption: "",
-    },
-  ],
+    "NAQRASHA / NUTS": [
+      {
+        name: "Special Nuts",
+        price: "2.50",
+        disctiption: "",
+      },
+      {
+        name: "Smoked Nuts",
+        price: "2.50",
+        disctiption: "",
+      },
+      {
+        name: "Healthy Nuts",
+        price: "2.50",
+        disctiption: "",
+      },
+    ],
   // "الحلويات/نقرشة": [
   //   {
   //     name: "كريب",
