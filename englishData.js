@@ -350,7 +350,7 @@ const englishData = {
       disctiption: "Coconut & Pineapple ",
     },
   ],
-    "NAQRASHA / NUTS": [
+    "NAQRASHA/NUTS": [
       {
         name: "Special Nuts",
         price: "2.50",
