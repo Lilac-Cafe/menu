@@ -350,6 +350,23 @@ const arabicData = {
       disctiption: "جوزهند، أناناس",
     },
   ],
+  نقرشة: [
+    {
+      name: "مكسرات سبيشال",
+      price: "2.50",
+      disctiption: "",
+    },
+    {
+      name: "مكسرات مدخنة",
+      price: "2.50",
+      disctiption: "",
+    },
+    {
+      name: "مكسرات صحية",
+      price: "2.50",
+      disctiption: "",
+    },
+  ],
   // "الحلويات/نقرشة": [
   //   {
   //     name: "كريب",
