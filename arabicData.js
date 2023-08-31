@@ -357,7 +357,7 @@ const arabicData = {
       disctiption: "",
     },
     {
-      name: "سيبس مع جبنة",
+      name: "شيبس مع جبنة",
       price: "3.00",
       disctiption: "",
     },
