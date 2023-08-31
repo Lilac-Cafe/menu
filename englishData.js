@@ -61,11 +61,6 @@ const englishData = {
       disctiption: "",
     },
     {
-      name: "French Coffee",
-      price: "3.00",
-      disctiption: "",
-    },
-    {
       name: "White Mocha",
       price: "3.00",
       disctiption: "",
@@ -353,17 +348,17 @@ const englishData = {
     "NAQRASHA/NUTS": [
       {
         name: "Special Nuts",
-        price: "2.50",
+        price: "3.00",
         disctiption: "",
       },
       {
         name: "Smoked Nuts",
-        price: "2.50",
+        price: "3.00",
         disctiption: "",
       },
       {
-        name: "Healthy Nuts",
-        price: "2.50",
+        name: "Chip N Dip",
+        price: "3.00",
         disctiption: "",
       },
     ],

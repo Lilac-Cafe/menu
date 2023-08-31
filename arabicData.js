@@ -61,11 +61,6 @@ const arabicData = {
       disctiption: "",
     },
     {
-      name: "قهوة فرنسية",
-      price: "3.00",
-      disctiption: "",
-    },
-    {
       name: "وايت موكا",
       price: "3.00",
       disctiption: "",
@@ -350,20 +345,20 @@ const arabicData = {
       disctiption: "جوزهند، أناناس",
     },
   ],
-  نقرشة: [
+  نقرشة/تسالي: [
     {
       name: "مكسرات سبيشال",
-      price: "2.50",
+      price: "3.00",
       disctiption: "",
     },
     {
       name: "مكسرات مدخنة",
-      price: "2.50",
+      price: "3.00",
       disctiption: "",
     },
     {
-      name: "مكسرات صحية",
-      price: "2.50",
+      name: "سيبس مع جبنة",
+      price: "3.00",
       disctiption: "",
     },
   ],
