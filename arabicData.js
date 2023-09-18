@@ -357,14 +357,9 @@ const arabicData = {
       disctiption: "",
     },
     {
-      name: "شيبس",
-      price: "3.50",
-      disctiption: "",
-    },
-    {
       name: "شيبس مع جبنة",
-      price: "4.50",
-      disctiption: "",
+      price: "3.50",
+      disctiption: "اضافة جبنة .............1.00 ",
     },
   ],
   // "الحلويات/نقرشة": [
