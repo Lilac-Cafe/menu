@@ -331,7 +331,7 @@ const englishData = {
     },
     {
       name: "Green Valley",
-      price: "3.50",
+      price: "4.00",
       disctiption: "Avocado",
     },
     {
@@ -357,9 +357,14 @@ const englishData = {
         disctiption: "",
       },
       {
-        name: "Chip N Dip",
-        price: "3.00",
+        name: "Chips",
+        price: "3.50",
         disctiption: "",
+      },
+      {
+        name: "Chip N Dip",
+        price: "4.50",
+        disctiption: "Cheese",
       },
     ],
   // "الحلويات/نقرشة": [

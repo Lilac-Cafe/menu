@@ -331,7 +331,7 @@ const arabicData = {
     },
     {
       name: "الوادي الأخضر",
-      price: "3.50",
+      price: "4.00",
       disctiption: "أفوكادو",
     },
     {
@@ -357,8 +357,13 @@ const arabicData = {
       disctiption: "",
     },
     {
+      name: "شيبس",
+      price: "3.50",
+      disctiption: "",
+    },
+    {
       name: "شيبس مع جبنة",
-      price: "3.00",
+      price: "4.50",
       disctiption: "",
     },
   ],
