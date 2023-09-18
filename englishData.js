@@ -357,11 +357,6 @@ const englishData = {
         disctiption: "",
       },
       {
-        name: "Chips",
-        price: "3.50",
-        disctiption: "",
-      },
-      {
         name: "Chip N Dip",
         price: "3.50",
         disctiption: "ُExtra Cheese.............1.00",
