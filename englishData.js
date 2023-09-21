@@ -357,14 +357,14 @@ const englishData = {
         disctiption: "",
       },
       {
-        name: "Chip N Dip",
+        name: "Chips with Cheese",
         price: "3.50",
         disctiption: "Extra Cheese...............................................1.00 JD",
       },
       {
         name: "Spicy Chip N Dip",
-        price: "3.00",
-        disctiption: "Extra Cheese...............................................1.00 JD",
+        price: "3.50",
+        disctiption: "",
       },
     ],
   // "الحلويات/نقرشة": [
