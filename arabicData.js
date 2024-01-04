@@ -46,7 +46,7 @@ const arabicData = {
       disctiption: "",
     },
     {
-      name: " بندورة باللحمة",
+      name: "بندورة باللحمة",
       price: "3.50",
       disctiption: "",
     },
@@ -125,6 +125,7 @@ const arabicData = {
       price: "1.25",
       disctiption: "",
     },
+  ]
     "المشروبات-الساخنة": [
       {
         name: "قهوة تركية سنجل",
