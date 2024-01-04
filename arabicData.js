@@ -125,13 +125,13 @@ const arabicData = {
       price: "1.25",
       disctiption: "",
     },
-  ]
+  ],
     "المشروبات-الساخنة": [
-      {
+    {
         name: "قهوة تركية سنجل",
         price: "1.50",
         disctiption: "",
-      },
+    },
     {
       name: "قهوة تركية دبل",
       price: "2.00",
