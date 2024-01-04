@@ -1,10 +1,136 @@
 const arabicData = {
-  "المشروبات-الساخنة": [
+  "الفطورات": [
     {
-      name: "قهوة تركية سنجل",
-      price: "1.50",
+      name: "لبنة جرشية",
+      price: "2.00",
       disctiption: "",
     },
+    {
+      name: "لبنة مدحبرة",
+      price: "2.25",
+      disctiption: "",
+    },
+    {
+      name: "مقدوس",
+      price: "2.25",
+      disctiption: "",
+    },
+    {
+      name: "جبنة بيضاء",
+      price: "2.50",
+      disctiption: "",
+    },
+    {
+      name: "بيض",
+      price: "2.00",
+      disctiption: "",
+    },
+    {
+      name: "بيض بالسمن البلدي",
+      price: "2.50",
+      disctiption: "",
+    },
+    {
+      name: "فعفوط",
+      price: "2.50",
+      disctiption: "",
+    },
+    {
+      name: "أومليت",
+      price: "3.00",
+      disctiption: "بيض مع خضار وجبنة",
+    },
+    {
+      name: "بندورة",
+      price: "2.50",
+      disctiption: "",
+    },
+    {
+      name: " بندورة باللحمة",
+      price: "3.50",
+      disctiption: "",
+    },
+    {
+      name: "حمص",
+      price: "1.75",
+      disctiption: "",
+    },
+    {
+      name: "حمص باللحمة",
+      price: "3.00",
+      disctiption: "",
+    },
+    {
+      name: "فول",
+      price: "1.75",
+      disctiption: "",
+    },
+    {
+      name: "فلافل",
+      price: "1.00",
+      disctiption: "",
+    },
+    {
+      name: "متبل",
+      price: "2.00",
+      disctiption: "",
+    },
+    {
+      name: "مربى",
+      price: "1.75",
+      disctiption: "",
+    },
+    {
+      name: "دبس مع طحينة",
+      price: "2.00",
+      disctiption: "",
+    },
+    {
+      name: "عسل",
+      price: "2.00",
+      disctiption: "",
+    },
+    {
+      name: "زبدة بلدية",
+      price: "1.75",
+      disctiption: "",
+    },
+    {
+      name: "زيت وزعتر",
+      price: "1.75",
+      disctiption: "",
+    },
+    {
+      name: "بطاطا مع جبنة",
+      price: "2.50",
+      disctiption: "",
+    },
+    {
+      name: "بطاطا ودجز",
+      price: "1.75",
+      disctiption: "",
+    },
+    {
+      name: "زيتون",
+      price: "1.25",
+      disctiption: "أخضر+أسود",
+    },
+    {
+      name: "صحن خضار",
+      price: "1.25",
+      disctiption: "",
+    },
+    {
+      name: "صحن مخلل",
+      price: "1.25",
+      disctiption: "",
+    },
+    "المشروبات-الساخنة": [
+      {
+        name: "قهوة تركية سنجل",
+        price: "1.50",
+        disctiption: "",
+      },
     {
       name: "قهوة تركية دبل",
       price: "2.00",
