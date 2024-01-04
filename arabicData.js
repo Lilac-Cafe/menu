@@ -78,7 +78,7 @@ const arabicData = {
     {
       name: "مربى",
       price: "1.75",
-      disctiption: "",
+      disctiption: "فراولة ، تين ، مشمش",
     },
     {
       name: "دبس مع طحينة",
@@ -101,13 +101,23 @@ const arabicData = {
       disctiption: "",
     },
     {
+      name: "بطاطا",
+      price: "1.75",
+      disctiption: "",
+    },
+    {
       name: "بطاطا مع جبنة",
-      price: "2.50",
+      price: "2.25",
       disctiption: "",
     },
     {
       name: "بطاطا ودجز",
-      price: "1.75",
+      price: "2.25",
+      disctiption: "",
+    },
+    {
+      name: " بطاطا ودجز مع جبنة",
+      price: "2.75",
       disctiption: "",
     },
     {
