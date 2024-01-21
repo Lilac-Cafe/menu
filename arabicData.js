@@ -81,6 +81,11 @@ const arabicData = {
       disctiption: "فراولة ، تين ، مشمش",
     },
     {
+      name: "حلاوة",
+      price: "1.75",
+      disctiption: "",
+    },
+    {
       name: "دبس مع طحينة",
       price: "2.00",
       disctiption: "",
@@ -169,7 +174,7 @@ const arabicData = {
     },
     {
       name: "هوت شوكلت",
-      price: "2.50",
+      price: "3.00",
       disctiption: "",
     },
     {
@@ -234,7 +239,7 @@ const arabicData = {
     },
     {
       name: "سحلب",
-      price: "2.50",
+      price: "3.00",
       disctiption: "",
     },
   ],

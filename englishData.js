@@ -32,7 +32,7 @@ const englishData = {
     },
     {
       name: "Hot Chocolate",
-      price: "2.50",
+      price: "3.00",
       disctiption: "",
     },
     {
@@ -97,7 +97,7 @@ const englishData = {
     },
     {
       name: "Sahlab",
-      price: "2.50",
+      price: "3.00",
       disctiption: "",
     },
   ],
