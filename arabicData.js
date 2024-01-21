@@ -1,7 +1,7 @@
 const arabicData = {
   "الفطورات": [
     {
-      name: "لبنة جرشية",
+      name: "لبنة",
       price: "2.00",
       disctiption: "",
     },
