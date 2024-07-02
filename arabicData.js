@@ -214,17 +214,17 @@ const arabicData = {
     },
     {
       name: "شاي بحليب",
-      price: "2.00",
+      price: "2.50",
       disctiption: "",
     },
     {
       name: "شاي كرك",
-      price: "2.00",
+      price: "2.50",
       disctiption: "",
     },
     {
       name: "شاي أخضر",
-      price: "2.00",
+      price: "2.50",
       disctiption: "",
     },
     {
@@ -234,7 +234,7 @@ const arabicData = {
     },
     {
       name: "زهورات",
-      price: "1.50",
+      price: "2.0",
       disctiption: "",
     },
     {
@@ -300,11 +300,6 @@ const arabicData = {
       disctiption: "",
     },
     {
-      name: " مشروب G",
-      price: "2.00",
-      disctiption: "",
-    },
-    {
       name: "شراب شعير",
       price: "2.00",
       disctiption: "",
@@ -312,11 +307,6 @@ const arabicData = {
     {
       name: "مياه صغير",
       price: "0.50",
-      disctiption: "",
-    },
-    {
-      name: "مياه كبير",
-      price: "1.00",
       disctiption: "",
     },
     {
@@ -478,12 +468,12 @@ const arabicData = {
     },
     {
       name: "موز بحليب وفراولة",
-      price: "3.00",
+      price: "3.50",
       disctiption: "",
     },
     {
       name: "بينا كولادا",
-      price: "3.00",
+      price: "3.50",
       disctiption: "جوزهند، أناناس",
     },
   ],

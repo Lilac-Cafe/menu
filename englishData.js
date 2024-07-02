@@ -72,17 +72,17 @@ const englishData = {
     },
     {
       name: "Milk Tea",
-      price: "2.00",
+      price: "2.50",
       disctiption: "",
     },
     {
       name: "Chai Karak",
-      price: "2.00",
+      price: "2.50",
       disctiption: "",
     },
     {
       name: "Green Tea",
-      price: "2.00",
+      price: "2.50",
       disctiption: "",
     },
     {
@@ -92,7 +92,7 @@ const englishData = {
     },
     {
       name: "Herbal Tea",
-      price: "1.50",
+      price: "2.0",
       disctiption: "",
     },
     {
@@ -158,11 +158,6 @@ const englishData = {
       disctiption: "",
     },
     {
-      name: "G Drink",
-      price: "2.00",
-      disctiption: "",
-    },
-    {
       name: "Malt Drink",
       price: "2.00",
       disctiption: "",
@@ -170,11 +165,6 @@ const englishData = {
     {
       name: "Water(Small)",
       price: "0.50",
-      disctiption: "",
-    },
-    {
-      name: "Water(Large)",
-      price: "1.00",
       disctiption: "",
     },
     {
@@ -336,12 +326,12 @@ const englishData = {
     },
     {
       name: "Banana & Strawberry",
-      price: "3.00",
+      price: "3.50",
       disctiption: "",
     },
     {
       name: "Pina Colada",
-      price: "3.00",
+      price: "3.50",
       disctiption: "Coconut & Pineapple ",
     },
   ],
